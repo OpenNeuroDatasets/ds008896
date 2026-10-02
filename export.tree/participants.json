@@ -1,0 +1,13 @@
+{
+  "Description": "Participant information for the combined CLN3 and NIH healthy-volunteer EEG dataset.",
+  "participant_id": {
+    "Description": "Anonymous BIDS participant identifier"
+  },
+  "group": {
+    "Description": "Participant group",
+    "Levels": {
+      "CLN3": "Participant with genetically confirmed CLN3 disease",
+      "HV": "NIH healthy volunteer"
+    }
+  }
+}

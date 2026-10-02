@@ -1,0 +1,15 @@
+{
+  "Description": "Channel information for the preprocessed EEG dataset.",
+  "name": {
+    "Description": "EEG channel name"
+  },
+  "type": {
+    "Description": "Channel type"
+  },
+  "units": {
+    "Description": "Measurement units"
+  },
+  "description": {
+    "Description": "Free-text description of the channel"
+  }
+}

@@ -1,0 +1,17 @@
+Preprocessed EEG data in CLN3 disease and NIH healthy volunteers
+
+This dataset contains preprocessed resting-state EEG recordings from individuals with genetically confirmed CLN3 disease and NIH healthy volunteers.
+
+The EEG data are provided as EEGLAB .set files in BIDS Derivatives format.
+
+Only NIH healthy-volunteer recordings included in the normative EEG analysis are shared here. Collaborating European healthy-volunteer recordings are not included.
+
+Five-minute quiet-wakefulness segments were selected for preprocessing. Segments containing sleep, photic stimulation, or hyperventilation were excluded.
+
+Processing included 1-45 Hz band-pass filtering, 60-Hz notch filtering for NIH recordings, segmentation into 4-second epochs, artifact rejection, and ICA-based removal of ocular, muscular, and electrocardiographic artifacts.
+
+The archived CLN3 preprocessed datasets are stored using a common-average reference. Healthy-volunteer reference information is retained from the corresponding processed EEGLAB datasets.
+
+For the spectral analyses reported in the associated manuscript, posterior channels P3, P4, O1, and O2 were subsequently re-referenced to Fz.
+
+CLN3 public identifiers were reassigned for the combined dataset. NIH healthy-volunteer identifiers correspond to the anonymized HV identifiers used in the normative analysis.
